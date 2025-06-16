@@ -1,0 +1,1 @@
+Could you please summarize everything we’ve agreed upon in our conversation so far, so I can confirm that we’re aligned?
