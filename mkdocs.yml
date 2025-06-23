@@ -1,0 +1,41 @@
+site_name: Project Name Documentation
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - navigation.top
+
+nav:
+  - Home:
+    - Overview: index.md
+    - Project: home/project.md
+    - Plan: home/plan.md
+    
+  # User Documentation
+  - User Guide:
+    - Getting Started: users/getting-started.md
+    - Installation: users/installation.md
+    - Basic Usage: users/basic-usage.md
+    - Advanced Features: users/advanced-features.md
+    - Configuration: users/configuration.md
+  - API Reference:
+    - Overview: api/overview.md
+  - Examples:
+    - Quick Start: examples/quick-start.md
+    - Use Cases: examples/use-cases.md
+  
+  # Contributor Documentation  
+  - Contributing:
+    - Overview: contributors/index.md
+    - Development Setup: contributors/setup.md
+    - Architecture: contributors/architecture.md
+    - Code Style & Standards: contributors/code-style.md
+    - Testing Guidelines: contributors/testing.md
+    - Documentation: contributors/documentation.md
